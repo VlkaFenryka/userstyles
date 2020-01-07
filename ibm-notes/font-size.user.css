@@ -1,0 +1,15 @@
+/* ==UserStyle==
+@name         [IBM notes] font-size
+@version      1.0.0
+@author       https://github.com/VlkaFenryka
+@namespace    https://github.com/VlkaFenryka
+==/UserStyle== */
+
+@document domain("mail-notes.avm.de") {
+  * {
+    font-size: 1rem !important;
+  }
+  .s-tab-table-body-row * {
+    font-size: 12px !important;
+  }
+}
