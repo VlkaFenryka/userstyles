@@ -1,0 +1,12 @@
+/* ==UserStyle==
+@name         [JAZZ] font-size
+@version      1.0.0
+@author       https://github.com/VlkaFenryka
+@namespace    https://github.com/VlkaFenryka
+==/UserStyle== */
+
+@document domain("jazz.avm.de") {
+  body {
+    font-size: 1rem;
+  }
+}
