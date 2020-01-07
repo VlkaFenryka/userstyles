@@ -1,0 +1,16 @@
+/* ==UserStyle==
+@name         [OWA] folder hide
+@version      1.0.0
+@author       https://github.com/VlkaFenryka
+@namespace    https://github.com/VlkaFenryka
+==/UserStyle== */
+
+@document domain("outlook.live.com") {
+  .customScrollBar.disableTextSelection
+    > div
+    > div:nth-child(2)
+    > div:nth-child(1)
+    > div {
+    display: none;
+  }
+}
