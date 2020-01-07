@@ -1,0 +1,33 @@
+/* ==UserStyle==
+@name         [RB] domain warning layer
+@version      1.0.0
+@author       https://github.com/VlkaFenryka
+@license      unlicense
+==/UserStyle== */
+
+.domain-layer {
+  align-items: center;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  font-size: 2rem;
+  font-weight: bold;
+  justify-content: center;
+  max-height: 40px;
+  position: fixed;
+  width: 100vw;
+  z-index: 999999;
+}
+
+.domain-layer.local {
+  background-color: darkseagreen;
+}
+.domain-layer.test {
+  background-color: darkorange;
+}
+.domain-layer.stage {
+  background-color: indianred;
+}
+.domain-layer.live {
+  background-color: tomato;
+}

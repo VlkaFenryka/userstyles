@@ -1,0 +1,22 @@
+{
+  "name": "userstyles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VlkaFenryka/userstyles.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VlkaFenryka/userstyles/issues"
+  },
+  "homepage": "https://github.com/VlkaFenryka/userstyles#readme",
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  }
+}
