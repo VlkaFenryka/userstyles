@@ -5,7 +5,7 @@
 @namespace    https://github.com/VlkaFenryka
 ==/UserStyle== */
 
-@document regexp("outlook.live.com\/mail\/") {
+@document url-prefix("https://outlook.live.com/mail") {
   .customScrollBar.disableTextSelection
     > div
     > div:nth-child(2)
