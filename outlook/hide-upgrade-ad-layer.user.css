@@ -5,7 +5,7 @@
 @namespace    https://github.com/VlkaFenryka
 ==/UserStyle== */
 
-@document domain("outlook.live.com") {
+@document domain("outlook.live.com/mail/") {
   #app
     > div
     > div:last-child
