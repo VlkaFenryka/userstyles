@@ -1,11 +1,11 @@
 /* ==UserStyle==
 @name         [OWA] folder hide
-@version      1.0.0
+@version      1.0.1
 @author       https://github.com/VlkaFenryka
 @namespace    https://github.com/VlkaFenryka
 ==/UserStyle== */
 
-@document domain("outlook.live.com") {
+@document regexp("outlook.live.com\/mail\/") {
   .customScrollBar.disableTextSelection
     > div
     > div:nth-child(2)
