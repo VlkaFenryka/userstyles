@@ -1,0 +1,12 @@
+/* ==UserStyle==
+@name         [Facebook] hide "Persons you may Know"
+@version      1.0.0
+@author       https://github.com/VlkaFenryka
+@namespace    https://github.com/VlkaFenryka
+==/UserStyle== */
+
+@document domain("facebook.com") {
+    #fb_stories_card_root{
+        display: none;
+    }
+}
