@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         [JAZZ] dark-mode
-@version      1.0.0
+@version      1.0.1
 @author       https://github.com/VlkaFenryka
 @namespace    https://github.com/VlkaFenryka
 ==/UserStyle== */
@@ -13,5 +13,14 @@
 
   img {
     filter: invert(1) contrast(1.25) saturate(1.25);
+  }
+
+  html.dj_contentbox {
+    background-color: transparent;
+  }
+
+  html.dj_contentbox body {
+    font-family: monospace;
+    font-size: 1rem;
   }
 }
