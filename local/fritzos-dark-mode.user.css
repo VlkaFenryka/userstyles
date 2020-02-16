@@ -1,11 +1,11 @@
 /* ==UserStyle==
 @name         [FRITZ!OS] dark mode
-@version      1.0.0
+@version      1.0.1
 @author       https://github.com/VlkaFenryka
 @namespace    https://github.com/VlkaFenryka
 ==/UserStyle== */
 
-@document regexp("http://192.168.178.*") {
+@document regexp("http://192.168.178.*"), regexp("https://192.168.40.*") {
   html {
     filter: invert(0.85);
     background: #262626;
