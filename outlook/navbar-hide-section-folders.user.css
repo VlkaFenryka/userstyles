@@ -1,5 +1,5 @@
 /* ==UserStyle==
-@name         [OWA] folder hide
+@name         [OWA] navbar hide section: Folders
 @version      1.0.2
 @author       https://github.com/VlkaFenryka
 @namespace    https://github.com/VlkaFenryka
@@ -8,9 +8,8 @@
 @document url-prefix("https://outlook.live.com/mail") {
   .customScrollBar.disableTextSelection
     > div
-    > div:nth-child(2)
-    > div:nth-child(1)
-    > div {
+    > div:nth-child(3)
+    > div:nth-child(1) {
     display: none;
   }
 }
