@@ -1,0 +1,12 @@
+/* ==UserStyle==
+@name         [OWA] navbar hide section: Files
+@version      1.0.0
+@author       https://github.com/VlkaFenryka
+@namespace    https://github.com/VlkaFenryka
+==/UserStyle== */
+
+@document url-prefix("https://outlook.live.com/mail") {
+  .customScrollBar.disableTextSelection > div > div:nth-child(2) {
+    display: none;
+  }
+}
