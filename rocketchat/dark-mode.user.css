@@ -1,0 +1,17 @@
+/* ==UserStyle==
+@name         [rocketchat] dark-mode
+@version      1.0.0
+@author       https://github.com/VlkaFenryka
+@namespace    https://github.com/VlkaFenryka
+==/UserStyle== */
+
+@document domain("rocketchat.avm.de") {
+  html {
+    background: #262626;
+    filter: invert(0.85);
+  }
+
+  img {
+    filter: invert(1) contrast(1.25) saturate(1.25);
+  }
+}
