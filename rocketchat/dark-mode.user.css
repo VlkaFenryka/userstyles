@@ -1,11 +1,11 @@
 /* ==UserStyle==
 @name         [rocketchat] dark-mode
-@version      1.0.3
+@version      1.0.4
 @author       https://github.com/VlkaFenryka
 @namespace    https://github.com/VlkaFenryka
 ==/UserStyle== */
 
-@document domain("rocketchat.avm.de", "chat.avm.de") {
+@document domain("chat.avm.de") {
   .main-content {
     filter: invert(0.85);
   }
