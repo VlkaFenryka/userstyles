@@ -1,12 +1,12 @@
 /* ==UserStyle==
 @name         [rocketchat] dark-mode
-@version      1.0.4
+@version      1.0.5
 @author       https://github.com/VlkaFenryka
 @namespace    https://github.com/VlkaFenryka
 ==/UserStyle== */
 
 @document domain("chat.avm.de") {
-  .main-content {
+  #rocket-chat {
     filter: invert(0.85);
   }
 
@@ -15,7 +15,9 @@
   }
 
   img,
-  .emojione {
+  .emojione,
+  .sidebar__footer img,
+  .avatar-image {
     filter: invert(1) contrast(1.25) saturate(1.25);
   }
 
