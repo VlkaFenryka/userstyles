@@ -1,0 +1,12 @@
+/* ==UserStyle==
+@name         [rocketchat] hide thread messages in channel
+@version      1.0.0
+@author       https://github.com/VlkaFenryka
+@namespace    https://github.com/VlkaFenryka
+==/UserStyle== */
+
+@document domain("chat.avm.de") {
+  .message.collapsed {
+    display: none;
+  }
+}
