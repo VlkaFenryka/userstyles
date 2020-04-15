@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         [rocketchat] dark-mode
-@version      1.0.6
+@version      1.0.7
 @author       https://github.com/VlkaFenryka
 @namespace    https://github.com/VlkaFenryka
 ==/UserStyle== */
@@ -18,7 +18,8 @@
   .emojione,
   .sidebar__footer img,
   .avatar-image,
-  .sidebar-item__user-status {
+  .sidebar-item__user-status,
+  .rc-header__status-bullet {
     filter: invert(1) contrast(1.25) saturate(1.25);
   }
 
