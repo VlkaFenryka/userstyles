@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         [rocketchat] dark-mode
-@version      1.0.7
+@version      1.0.8
 @author       https://github.com/VlkaFenryka
 @namespace    https://github.com/VlkaFenryka
 ==/UserStyle== */
@@ -12,6 +12,10 @@
 
   .color-primary-font-color {
     color: #000000f7;
+  }
+
+  .sidebar-item--unread {
+    color: black;
   }
 
   img,
