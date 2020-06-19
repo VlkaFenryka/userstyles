@@ -1,12 +1,12 @@
 /* ==UserStyle==
 @name         [rocketchat] font-size
-@version      1.0.3
+@version      1.0.4
 @author       https://github.com/VlkaFenryka
 @namespace    https://github.com/VlkaFenryka
 ==/UserStyle== */
 
 @document domain("chat.avm.de") {
   body * {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
 }
