@@ -5,7 +5,7 @@
 @namespace    https://github.com/VlkaFenryka
 ==/UserStyle== */
 
-@document domain("wiki.avm.de") {
+@document domain("confluence.fitx.de") {
   html {
     background: #262626;
     filter: invert(0.85);
