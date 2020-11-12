@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prettier-watch": "onchange '**/*.css' -- prettier --write {{changed}}"
+    "prettier-watch": "onchange '**/*.css' -- prettier --write {{changed}}",
+    "update": "npm update",
+    "audit-fix": "npm audit fix"
   },
   "repository": {
     "type": "git",
